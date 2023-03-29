@@ -33,12 +33,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.31"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@vitejs/plugin-react-swc", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:3.2.0"],\
+            ["@walletconnect/jsonrpc-types", "npm:1.0.2"],\
+            ["@walletconnect/jsonrpc-utils", "npm:1.0.6"],\
+            ["buffer", "npm:6.0.3"],\
             ["ethers", "npm:5.7.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["vite", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:4.2.1"],\
-            ["wagmi", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:0.12.7"]\
+            ["wagmi", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:0.12.7"],\
+            ["ws", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:8.13.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -3371,12 +3375,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.31"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@vitejs/plugin-react-swc", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:3.2.0"],\
+            ["@walletconnect/jsonrpc-types", "npm:1.0.2"],\
+            ["@walletconnect/jsonrpc-utils", "npm:1.0.6"],\
+            ["buffer", "npm:6.0.3"],\
             ["ethers", "npm:5.7.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["vite", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:4.2.1"],\
-            ["wagmi", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:0.12.7"]\
+            ["wagmi", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:0.12.7"],\
+            ["ws", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:8.13.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -6531,6 +6539,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ws", "npm:8.13.0"]\
           ],\
           "linkType": "SOFT"\
+        }],\
+        ["virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:8.13.0", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-0717bdcb8d/0/cache/ws-npm-8.13.0-26ffa3016a-53e991bbf9.zip/node_modules/ws/",\
+          "packageDependencies": [\
+            ["ws", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:8.13.0"],\
+            ["@types/bufferutil", null],\
+            ["@types/utf-8-validate", null],\
+            ["bufferutil", null],\
+            ["utf-8-validate", null]\
+          ],\
+          "packagePeers": [\
+            "@types/bufferutil",\
+            "@types/utf-8-validate",\
+            "bufferutil",\
+            "utf-8-validate"\
+          ],\
+          "linkType": "HARD"\
         }],\
         ["virtual:1d2a655ef75df9bb7b8d53d5eec81cf05b2c8f7710f9f6959e1040c3445e13c72d11ae1d3ea968f5f04de942e3e6a5f4b4aee6b50259fd4e8bcd37f95ab2d1e8#npm:8.13.0", {\
           "packageLocation": "./.yarn/__virtual__/ws-virtual-8ab6b8cda1/0/cache/ws-npm-8.13.0-26ffa3016a-53e991bbf9.zip/node_modules/ws/",\

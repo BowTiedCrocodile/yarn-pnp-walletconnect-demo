@@ -10,10 +10,10 @@ import {
 import { publicProvider } from 'wagmi/providers/public';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
-const { chains, provider, webSocketProvider } = configureChains(
-  [mainnet, goerli],
+const { chains, provider } = configureChains(
+  [mainnet],
   [
-    publicProvider({}),
+    publicProvider(),
   ],
 )
 
@@ -23,7 +23,7 @@ const { connectors } = getDefaultWallets({
 });
 
 const wagmiClient = createClient({
-  autoConnect: false,
+  autoConnect: true,
   connectors,
   provider,
 })
@@ -33,7 +33,9 @@ function App() {
     <>
       <WagmiConfig client={wagmiClient}>
         <RainbowKitProvider chains={chains}>
-          <ConnectButton />
+          <div>
+            <ConnectButton />
+          </div>
         </RainbowKitProvider>
       </WagmiConfig>
     </>
