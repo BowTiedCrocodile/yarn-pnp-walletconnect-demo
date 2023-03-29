@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.31"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@vitejs/plugin-react-swc", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:3.2.0"],\
+            ["buffer", "npm:6.0.3"],\
             ["ethers", "npm:5.7.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:18.2.0"],\
@@ -3371,6 +3372,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.31"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@vitejs/plugin-react-swc", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:3.2.0"],\
+            ["buffer", "npm:6.0.3"],\
             ["ethers", "npm:5.7.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:18.2.0"],\
